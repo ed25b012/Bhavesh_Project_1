@@ -9,7 +9,7 @@ The chatbot should then ask the employee whether they would like to Read the Mat
 For assessments, the system should use AI techniques to automatically generate questions from the selected PDF content. Each test should contain unique questions to minimize repetition and encourage genuine understanding. The duration of the test should be dynamically set based on the selected training document.
 
 Upon completion of the assessment, the chatbot should automatically evaluate the responses, calculate the score, and display the final marks to the employee. The employee's test score, along with their previously collected details, should then be updated and stored in the Excel database for future reference and reporting.
-#Task 1: Employee Authentication and PDF Access
+# Task 1: Employee Authentication and PDF Access
 
 Develop the employee authentication module of the chatbot using Python. The system should collect the Employee ID, Employee Name, and Division, and verify the details against an Excel database. If the Employee ID exists and the name matches, the employee is authenticated. If the ID exists but the name does not match, the user should be prompted to re-enter the details. If the Employee ID is not found, the employee's details should be added to the Excel database.
 
